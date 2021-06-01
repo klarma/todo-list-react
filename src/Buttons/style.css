@@ -1,0 +1,21 @@
+.section__button {
+    color: hsl(180, 100%, 25%);
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: color .5s linear;
+}
+
+.section__button:hover {
+    color: hsl(180, 100%, 35%);
+}
+
+.section__button:active {
+    color: hsl(180, 100%, 45%);
+}
+
+.section__button:disabled {
+    color: #ddd;
+    pointer-events: none;
+}
