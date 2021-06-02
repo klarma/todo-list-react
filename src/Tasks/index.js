@@ -11,8 +11,11 @@ const Tasks = ({ tasks, hideDoneTasks }) => (
                         : ""}`
                     }
                 >
-                    <button className="tasksList__button tasksList__button--done">
-                        {task.done ? "<i class='fas fa-check'></i>" : ""}
+                    <button
+                        className="tasksList__button tasksList__button--done">
+                        {task.done
+                            ? <i class='fas fa-check'></i>
+                            : ""}
                     </button>
                     <span
                         className={
@@ -23,7 +26,8 @@ const Tasks = ({ tasks, hideDoneTasks }) => (
                     >
                         {task.content}
                     </span>
-                    <button className="tasksList__button">
+                    <button
+                        className="tasksList__button">
                         <i className="fas fa-trash-alt"></i>
                     </button>
                 </li>

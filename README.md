@@ -1,6 +1,38 @@
 # Task List
 
-Description
+Simple to-do list with the ability to mark up or delete completed tasks.
+
+![project on different devices](public\toDoListReadme.jpg)
+
+## How to use:
+
+1. Click on the active field.
+2. Enter a task and press the "Add task" button.
+3. The task to be performed will appear in the list of tasks below.
+4. If you want to mark a finished task, click the green button.
+5. If you want to delete the task, click the red button.
+6. You can hide completed tasks by clicking on the "Ukryj wszystkie" button.
+7. You can show hidden tasks by clicking on the "Pokaż wszystkie" button.
+8. If you want to mark all tasks as completed, click the "Ukończ wszystkie" button.
+
+## Technologies
+
+Project is created with:
+
+- Semantic HTML;
+- CSS;
+- Grid;
+- Flex;
+- Media queries;
+- BEM;
+- ES6+;
+- React JS.
+
+## Demo
+
+https://klarma.github.io/todo-list-react/
+
+## Description:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
