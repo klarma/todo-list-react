@@ -11,19 +11,8 @@
     background-color: #fff;
 }
 
-.section__span {
-    display: flex;
-}
-
 @media (max-width: 767px) {
     .section__header {
         flex-direction: column;
-    }
-    .section__span {
-        flex-direction: column;
-        padding: 30px;
-    }
-    .section__button {
-        padding: 10px;
     }
 }
