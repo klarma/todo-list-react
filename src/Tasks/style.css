@@ -1,11 +1,11 @@
-.tasksList {
+.tasks {
     padding: 20px;
     margin: 2px 5px;
     background-color: #fff;
     list-style-type: none;
 }
 
-.tasksList__item {
+.tasks__item {
     display: grid;
     grid-template-columns: auto 1fr auto;
     grid-gap: 10px;
@@ -15,21 +15,21 @@
     margin-bottom: 10px;
 }
 
-.taskList__item--hide {
+.tasks__item--hide {
     display: none;
 }
 
-.tasksList__spanTask {
+.tasks__spanTask {
     color: #333;
     overflow-wrap: anywhere;
     word-break: break-word;
 }
 
-.tasksList__spanTask--done {
+.tasks__spanTask--done {
     text-decoration: line-through;
 }
 
-.tasksList__button {
+.tasks__button {
     color: #eee;
     background-color: hsl(0, 100%, 50%);
     border: none;
@@ -40,23 +40,23 @@
     transition: background-color .5s linear;
 }
 
-.tasksList__button:hover {
+.tasks__button:hover {
     background-color: hsl(0, 100%, 60%);
 }
 
-.tasksList__button:active {
+.tasks__button:active {
     background-color: hsl(0, 100%, 70%);
 }
 
-.tasksList__button--done {
+.tasks__button--done {
     margin-right: 10px;
     background-color: hsl(120, 100%, 25%);
 }
 
-.tasksList__button--done:hover {
+.tasks__button--done:hover {
     background-color: hsl(120, 100%, 35%);
 }
 
-.tasksList__button--done:active {
+.tasks__button--done:active {
     background-color: hsl(120, 100%, 45%);
 }
