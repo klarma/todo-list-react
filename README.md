@@ -26,7 +26,10 @@ Project is created with:
 - Media queries;
 - BEM;
 - ES6+;
-- React JS.
+- React JS;
+- Create-react-app;
+- Webpack;
+- Babel.
 
 ## Demo
 
