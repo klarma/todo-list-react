@@ -1,6 +1,6 @@
 import "./style.css";
 
-const Tasks = ({ tasks, hideDone }) => (
+const Tasks = ({ tasks, hideDone, removeTask }) => (
     <ul className="tasks">
         {
             tasks.map(task => (
@@ -27,7 +27,9 @@ const Tasks = ({ tasks, hideDone }) => (
                         {task.content}
                     </span>
                     <button
-                        className="tasks__button">
+                        className="tasks__button"
+                        onClick={() => removeTask(task.id)}
+                    >
                         <i className="fas fa-trash-alt"></i>
                     </button>
                 </li>
