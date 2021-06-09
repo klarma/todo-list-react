@@ -16,7 +16,7 @@ const Tasks = ({ tasks, hideDone, removeTask, toggleTaskDone }) => (
                         onClick={() => toggleTaskDone(task.id)}
                     >
                         {task.done
-                            ? <i class='fas fa-check'></i>
+                            ? <i className='fas fa-check'></i>
                             : ""}
                     </button>
                     <span
@@ -26,7 +26,7 @@ const Tasks = ({ tasks, hideDone, removeTask, toggleTaskDone }) => (
                                 : ""}`
                         }
                     >
-                        {task.content}
+                        {task.id} - {task.content}
                     </span>
                     <button
                         className="tasks__button"
