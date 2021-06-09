@@ -2,7 +2,7 @@
 
 Simple to-do list with the ability to mark up or delete completed tasks.
 
-![project on different devices](public\toDoListReadme.jpg)
+![project on different devices](toDoListReadme.jpg)
 
 ## How to use:
 
