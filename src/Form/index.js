@@ -9,10 +9,11 @@ const Form = ({ addNewTask }) => {
 
         const newTaskContentTrimed = newTaskContent.trim();
 
-        if (newTaskContentTrimed.length) {
-            addNewTask(newTaskContentTrimed);
+        if (!newTaskContentTrimed) {
+            return;   
         };
 
+        addNewTask(newTaskContentTrimed);
         setNewTaskContent("");
     };
 
