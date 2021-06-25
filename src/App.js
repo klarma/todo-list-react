@@ -12,7 +12,7 @@ const getInitialTasks = () => {
   return tasksFromLocalStorage
     ? JSON.parse(tasksFromLocalStorage)
     : []
-}
+};
 
 function App() {
   const [hideDone, setHideDone] = useState(false);
@@ -21,7 +21,6 @@ function App() {
   useEffect(() => {
     localStorage.setItem("tasks", JSON.stringify(tasks));
   }, [tasks]);
-
 
   const toggleHideDone = () => {
     setHideDone(hideDone => !hideDone)
