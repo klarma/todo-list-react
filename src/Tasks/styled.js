@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 export const List = styled.ul`
     padding: 20px;
     margin: 2px 5px;
-    background-color: #fff;
+    background-color: ${({ theme }) => theme.color.white};
     list-style-type: none;
 `;
 
@@ -22,7 +22,7 @@ export const Item = styled.li`
 `;
 
 export const Content = styled.span`
-    color: #333;
+    color: ${({ theme }) => theme.color.mineshaft};
     overflow-wrap: anywhere;
     word-break: break-word;
 
@@ -33,7 +33,7 @@ export const Content = styled.span`
 
 export const Button = styled.button`
     margin-right: 10px;
-    color: #eee;
+    color: ${({ theme }) => theme.color.gallery};
     border: none;
     width: 30px;
     height: 30px;
@@ -42,26 +42,26 @@ export const Button = styled.button`
     transition: background-color .5s linear;
 
     ${({ toggleDone }) => toggleDone && css`   
-        background-color: hsl(120, 100%, 25%);
+        background-color: ${({ theme }) => theme.color.forestGreen};
 
         &:hover {
-            background-color: hsl(120, 100%, 35%);
+            filter: brightness(110%);
         }
 
         &:active {
-            background-color: hsl(120, 100%, 45%);
+            filter: brightness(130%);
         }
     `}
         
     ${({ remove }) => remove && css`
-        background-color: hsl(0, 100%, 50%);
+        background-color: ${({ theme }) => theme.color.crimson};
 
         &:hover{
-            background-color: hsl(0, 100%, 60%);
+            filter: brightness(110%);
         }
 
         &:active{
-            background-color: hsl(0, 100%, 70%);
+            filter: brightness(130%);
         }
     `}   
 `;
