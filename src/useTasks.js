@@ -1,11 +1,7 @@
 import { useEffect, useState } from 'react';
 
 const getInitialTasks = () => {
-    const tasksFromLocalStorage = localStorage.getItem("tasks");
-
-    return tasksFromLocalStorage
-        ? JSON.parse(tasksFromLocalStorage)
-        : []
+    return JSON.parse(localStorage.getItem("tasks")) || [];
 };
 
 const useTasks = () => {
