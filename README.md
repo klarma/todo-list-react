@@ -25,8 +25,12 @@ Project is created with:
 - Flex;
 - Media queries;
 - BEM;
+- LocalStorage
 - ES6+;
+- JS Modules;
 - React JS;
+- Custom Hook, useState, useEffect
+- Styled Components
 - Create-react-app;
 - Webpack;
 - Babel.
