@@ -1,5 +1,5 @@
 const Container = ({ children }) => (
-    <main className="container">
+    <main>
         {children}
     </main>
 );
