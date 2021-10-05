@@ -19,18 +19,19 @@ Simple to-do list with the ability to mark up or delete completed tasks.
 
 Project is created with:
 
-- Semantic HTML;
+- HTML;
 - CSS;
 - Grid;
 - Flex;
 - Media queries;
 - BEM;
-- LocalStorage
+- LocalStorage;
 - ES6+;
+- Immutabilities;
 - JS Modules;
 - React JS;
-- Custom Hook, useState, useEffect
-- Styled Components
+- Custom Hook, useState, useEffect;
+- Styled Components;
 - Create-react-app;
 - Webpack;
 - Babel.
