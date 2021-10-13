@@ -16,7 +16,6 @@ function Tasks() {
     removeTask,
     toggleTaskDone,
     setAllDone,
-    addNewTask,
   } = useTasks();
 
   const toggleHideDone = () => {
@@ -32,7 +31,7 @@ function Tasks() {
         <Section
           title="Dodaj nowe zadanie"
           body={
-            <Form addNewTask={addNewTask} />
+            <Form />
           }
         />
         <Section
