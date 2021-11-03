@@ -9,7 +9,6 @@ import Container from "../../common/Container";
 function Tasks() {
   const {
     removeTask,
-    toggleTaskDone,
     setAllDone,
   } = useTasks();
 
@@ -30,7 +29,6 @@ function Tasks() {
           body={
             <TaskList
               removeTask={removeTask}
-              toggleTaskDone={toggleTaskDone}
             />
           }
           extraHeaderContent={
