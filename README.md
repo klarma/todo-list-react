@@ -31,6 +31,7 @@ Project is created with:
 - JS Modules;
 - React JS;
 - Custom Hook, useState, useEffect;
+- Redux;
 - Styled Components;
 - Create-react-app;
 - Webpack;
