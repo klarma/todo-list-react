@@ -32,6 +32,7 @@ Project is created with:
 - React JS;
 - Custom Hook, useState, useEffect;
 - Redux;
+- Redux-Saga;
 - Styled Components;
 - Create-react-app;
 - Webpack;
