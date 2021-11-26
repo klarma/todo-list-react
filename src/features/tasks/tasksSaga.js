@@ -13,6 +13,5 @@ function* fetchExampleTasksHandler() {
 };
 
 export function* watchFetchExampleTasks() {
-    console.log("działa");
     yield takeEvery(fetchExampleTasks.type, fetchExampleTasksHandler);
 };
