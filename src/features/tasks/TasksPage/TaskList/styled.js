@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 
 export const List = styled.ul`
     padding: 20px;
-    margin: 2px 5px;
+    margin: 0;
     background-color: ${({ theme }) => theme.color.white};
     list-style-type: none;
 `;
