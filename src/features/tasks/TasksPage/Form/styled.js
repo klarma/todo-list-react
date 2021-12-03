@@ -5,17 +5,12 @@ export const StyledForm = styled.form`
     grid-template-columns: 1fr auto;
     grid-gap: 10px;
     padding: 20px;
-    /* margin: 2px 5px; */
+    margin: 2px 5px;
     background-color: ${({ theme }) => theme.color.white};
 
     @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px){
         grid-template-columns: 1fr;
     }
-`;
-
-export const Input = styled.input`
-    padding: 8px;
-    border: 1px solid ${({ theme }) => theme.color.gallery};
 `;
 
 export const Button = styled.button`
