@@ -34,7 +34,7 @@ const tasksSlice = createSlice({
             state.buttonState = true;
         },
         fetchExampleTasksError: (state) => {
-            state.buttonState = false;
+            state.buttonState = true;
         },
     },
 });
