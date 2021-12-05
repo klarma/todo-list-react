@@ -33,6 +33,9 @@ const tasksSlice = createSlice({
             state.tasks = tasks;
             state.buttonState = true;
         },
+        fetchExampleTasksError: (state) => {
+            state.buttonState = false;
+        },
     },
 });
 
@@ -44,6 +47,7 @@ export const {
     setAllDone,
     fetchExampleTasks,
     setTasks,
+    fetchExampleTasksError,
 } = tasksSlice.actions;
 
 const selectTasksState = state => state.tasks;
@@ -63,7 +67,7 @@ export const selectTasksByQuery = (state, query) => {
         return tasks;
     };
 
-    return tasks.filter(({ content }) => 
+    return tasks.filter(({ content }) =>
         content.toUpperCase().includes(query.trim().toUpperCase()));
 };
 
